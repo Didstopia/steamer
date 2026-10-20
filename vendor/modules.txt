@@ -1,7 +1,8 @@
 # github.com/andybalholm/brotli v1.0.0
-## explicit
+## explicit; go 1.12
 github.com/andybalholm/brotli
 # github.com/dsnet/compress v0.0.1
+## explicit; go 1.9
 github.com/dsnet/compress
 github.com/dsnet/compress/bzip2
 github.com/dsnet/compress/bzip2/internal/sais
@@ -9,34 +10,38 @@ github.com/dsnet/compress/internal
 github.com/dsnet/compress/internal/errors
 github.com/dsnet/compress/internal/prefix
 # github.com/fatih/color v1.9.0
-## explicit
+## explicit; go 1.13
 github.com/fatih/color
 # github.com/frankban/quicktest v1.11.0
-## explicit
+## explicit; go 1.13
 # github.com/golang/snappy v0.0.2
 ## explicit
 github.com/golang/snappy
 # github.com/hokaccha/go-prettyjson v0.0.0-20190818114111-108c894c2c0e
 ## explicit
 github.com/hokaccha/go-prettyjson
-# github.com/klauspost/compress v1.11.0
-## explicit
+# github.com/klauspost/compress v1.18.7
+## explicit; go 1.24
+github.com/klauspost/compress
 github.com/klauspost/compress/flate
 github.com/klauspost/compress/fse
 github.com/klauspost/compress/huff0
-github.com/klauspost/compress/snappy
+github.com/klauspost/compress/internal/cpuinfo
+github.com/klauspost/compress/internal/le
+github.com/klauspost/compress/internal/snapref
 github.com/klauspost/compress/zstd
 github.com/klauspost/compress/zstd/internal/xxhash
 # github.com/klauspost/pgzip v1.2.5
 ## explicit
 github.com/klauspost/pgzip
 # github.com/mattn/go-colorable v0.1.7
-## explicit
+## explicit; go 1.13
 github.com/mattn/go-colorable
 # github.com/mattn/go-isatty v0.0.12
+## explicit; go 1.12
 github.com/mattn/go-isatty
 # github.com/mholt/archiver/v3 v3.3.0
-## explicit
+## explicit; go 1.12
 github.com/mholt/archiver/v3
 # github.com/nwaples/rardecode v1.1.0
 ## explicit
@@ -46,14 +51,15 @@ github.com/nwaples/rardecode
 github.com/pierrec/lz4
 github.com/pierrec/lz4/internal/xxh32
 # github.com/ulikunitz/xz v0.5.8
-## explicit
+## explicit; go 1.12
 github.com/ulikunitz/xz
 github.com/ulikunitz/xz/internal/hash
 github.com/ulikunitz/xz/internal/xlog
 github.com/ulikunitz/xz/lzma
 # github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8
+## explicit
 github.com/xi2/xz
 # golang.org/x/sys v0.0.0-20200923182605-d9f96fdee20d
-## explicit
+## explicit; go 1.12
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
